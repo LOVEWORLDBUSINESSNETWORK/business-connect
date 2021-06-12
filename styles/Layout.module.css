@@ -1,0 +1,17 @@
+.mynav{
+    background : rgba(241, 238, 238, 0.685);
+}
+.mynav a{
+    color: black;
+}
+.active{
+    padding-bottom: 0px;
+    border-bottom: 4px solid black;
+    font-weight: bold;
+}
+.f-search{
+    border: none;
+}
+.f-search::placeholder{
+    text-align: center;
+}

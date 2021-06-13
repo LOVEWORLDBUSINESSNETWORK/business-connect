@@ -101,11 +101,33 @@ html,body{
 .bgdk{
     background: #f0eee1;
 }
+.list{
+    list-style: none;
+    text-align: left;
+}
+.list li a{
+    text-decoration: none;
+    color: #999;   
+}
+.my-footer p{
+    color: #999;
+}
 .my-footer{
     margin-top: 50px;
     background-image: url(../public/images/wav.png);
-    height:500px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-size: cover;
+}
+.copyright{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.my-footer h5{
+    color: white;
 }
 .banner{
     background-image: url(../public/images/botbanner.png);
@@ -114,6 +136,26 @@ html,body{
     flex-direction: column;
     justify-content: center;
 }
-@media screen  {
-    
+@media only screen and (max-width:600px)  {
+    .my-bg{
+        height: auto;
+    }
+    .my-bg h1{
+        font-size: 30px;
+    }
+    .bid-btn{
+        width: 25%;
+        padding: .3rem 0px;
+        font-size: 16px;
+        margin: 20px;
+    }
+    .my-btn-sm{
+        width: 25%;
+    }
+    .banner h1{
+        font-size: large;
+    }
+    .banner{
+        height: auto;
+    }
 }

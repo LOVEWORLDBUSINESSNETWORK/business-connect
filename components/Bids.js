@@ -6,7 +6,7 @@ class Bid extends Component {
         <div className="px-3">
           
           <div className="rw d-flex p-3 mx-auto">
-            <div className="col-md-6 col-lg-12 card shadow p-3 w-75">
+            <div className="col-md-6 col-lg-12 card shadow p-3">
               <div className="row space-btw">
                 <div className="col-md-8 ">
                   <h3>Graphic Designer for Brand Identity</h3>

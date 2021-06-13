@@ -13,10 +13,27 @@ html,body{
 .mynav a{
     color: #fff;
 }
+.nav-link:hover{
+    color: black !important;
+    font-weight: bold;
+}
 .active{
     padding-bottom: 0px;
-    border-bottom: 4px solid #fff;
+    /* border-bottom: 3px solid rgb(255, 255, 255); */
     font-weight: bold;
+    z-index: 1;
+    position: relative;
+}
+.active::after{
+    /* padding-bottom: 0px; */
+    border-bottom: 3px solid rgb(255, 255, 255);
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    left: .5rem;
+    content: "";
+    /* font-weight: bold; */
 }
 .f-search{
     border: none;
@@ -167,4 +184,54 @@ html,body{
     .banner{
         height: auto;
     }
+}
+.bg-grey{
+    background-color: #EEEBDD;
+}
+.crt-bid-card{
+    border-radius: 0px 50px 0px 50px ;
+}
+.bid-date-sel{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.left-rad{
+    /* background-color: red; */
+    border-radius: 10px 0px 0px 10px;
+    padding: .6rem .5rem;
+    font-size: small;
+    margin-right: .2rem;
+}
+/* .c-date input{
+    outline: none;
+    border: none;
+    width: 30%;
+} */
+.no-rad{
+    /* background-color: blue; */
+    padding: .6rem .5rem;
+    font-size: small;
+    margin-right: .1rem;
+}
+.right-rad{
+    /* background-color: red; */
+    border-radius: 0px 10px 10px 0px;
+    padding: .6rem .7rem;
+    font-size: small;
+}
+.bid-curr{
+    display: flex;
+    justify-content: space-between;
+}
+.full-rad{
+    border-radius: 5px;
+}
+.my-text-box{
+    height: 368px !important;
+
+}
+.budget::placeholder{
+    text-align: right;
 }

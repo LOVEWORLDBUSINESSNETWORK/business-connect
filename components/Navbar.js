@@ -1,12 +1,13 @@
 import Image from "next/image";
-import Head from "next/head";
-import Link from "next/link"
+import { useRouter } from "next/router";
+import Link from "next/link";
 // import styles from './navbar.module.css'
 // import Layout from "./Layout";
 
-const { Component } = require("react");
-class Nav extends Component {
-  render() {
+// const { Component } = require("react");
+const Nav = ()=>{
+  const router = useRouter();
+  // render() {
     return (
       <>
        
@@ -39,29 +40,29 @@ class Nav extends Component {
             >
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link href="#">
-                    <a className="nav-link active">
+                  <Link href="/">
+                    <a className={"nav-link "+(router.pathname=='/' ? 'active' : '')}>
                       Home
                     </a>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link href="#">
-                    <a className="nav-link">
+                  <a className={"nav-link "+(router.pathname=='/lbn' ? 'active' : '')}>
                       LBN
                     </a>
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link href="#">
-                    <a className="nav-link">
+                  <Link href="/create-bid" activeClassName="active">
+                    <a className={"nav-link "+(router.pathname=='/create-bid' ? 'active' : '')}>
                       Create a bid
                     </a>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link href="#">
-                    <a className="nav-link">
+                  <a className={"nav-link "+(router.pathname=='/contact-us' ? 'active' : '')}>
                       Contact us
                     </a>
                   </Link>
@@ -72,6 +73,6 @@ class Nav extends Component {
         </nav>
       </>
     );
-  }
+  // }
 }
 export { Nav as default };

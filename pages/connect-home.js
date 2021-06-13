@@ -13,24 +13,24 @@ class Home extends Component {
         {/* <Nav/> */}
         <div className="row go mx-4 my-3">
           <div className="col-md-3 d-none d-md-block pr-0">
-            <div className="container w-75 mt-4 pr-0">
-              <div className="card shadow px-2 py-2 text-left mt-2">
-                <h6>Film & Videos</h6>
+            <div className="container w-75 mt-4 pr-0 categories">
+              <div className="card shadow px-2 py-2 text-left mt-2 btn">
+                <h6>Film & Videos &rarr;</h6>
               </div>
-              <div className="card shadow px-2 py-2 text-left mt-2">
-                <h6>Food and Agric</h6>
+              <div className="card shadow px-2 py-2 text-left mt-2 btn">
+                <h6>Food and Agric &rarr;</h6>
               </div>
-              <div className="card shadow px-2 py-2 text-left mt-2">
-                <h6>Fashion</h6>
+              <div className="card shadow px-2 py-2 text-left mt-2 btn">
+                <h6>Fashion &rarr;</h6>
               </div>
-              <div className="card shadow px-2 py-2 text-left mt-2">
-                <h6>IT</h6>
+              <div className="card shadow px-2 py-2 text-left mt-2 btn">
+                <h6>IT &rarr;</h6>
               </div>
-              <div className="card shadow px-2 py-2 text-left mt-2">
-                <h6>Education</h6>
+              <div className="card shadow px-2 py-2 text-left mt-2 btn">
+                <h6>Education &rarr;</h6>
               </div>
-              <div className="card shadow px-2 py-2 text-left mt-2">
-                <h6>Travels and Tourism</h6>
+              <div className="card shadow px-2 py-2 text-left mt-2 btn">
+                <h6>Travels and Tourism &rarr;</h6>
               </div>
 
               <div className="text-left mt-4 mb-2 ">

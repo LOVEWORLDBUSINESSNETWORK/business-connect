@@ -7,7 +7,7 @@ class Footer extends Component {
     return (
       <>
         <div className="my-footer">
-          <div className="row container text-center mx-auto">
+          <div className="row container text-center mx-auto foot-1">
             <div className="col-md-3">
               <Image
                 src="/images/LOGO.png"
@@ -15,7 +15,7 @@ class Footer extends Component {
                 width={100}
                 alt="Logo"
               />
-              <p>
+              <p className="text-left">
                 Connect on the loveworld next Platform and engage, pitch your
                 business ideas and exhibit your products.
               </p>
@@ -50,7 +50,7 @@ class Footer extends Component {
                 </li>
               </ul>
             </div>
-            <div className="col-md-3 text-center">
+            <div className="col-md-3">
               <h5>SUPPORT</h5>
               <ul className="list">
                 <li>
@@ -88,7 +88,7 @@ class Footer extends Component {
           </div>
           <div className="container copyright">
               <div>&copy; copyright 2021 loveworldnext</div>
-              <div> <span>Created by</span> <span>LoveWorldNext</span> </div>
+              <div> <span className="text-secondary">Created by: </span> <span>LoveWorldNext</span> </div>
           </div>
         </div>
       </>

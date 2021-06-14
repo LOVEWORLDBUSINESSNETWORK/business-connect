@@ -235,3 +235,42 @@ html,body{
 .budget::placeholder{
     text-align: right;
 }
+.custom-file{
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+.custom-file::-webkit-file-upload-button{
+    background-color: white;
+    border-radius: 7px;
+    padding: 5px 10px;
+    border: none;
+    display: none;
+}
+.file-label, .drag-n-drop{
+    background-color: white;
+    padding: 7px 10px;
+    border-radius: 5px;
+    height: 38px;
+}
+    /* .drag-n-drop{
+        background-color: white;
+        border-radius: 5px;
+        padding: 7px 10px;
+    } */
+.file-uploads{
+    display: flex;
+    justify-content: space-around;
+}
+.btn-lbn{
+    background-color: white;
+    width: 15%;
+}
+.btn-lbn:hover{
+    background-color: #ce1212;
+    color: white;
+}
+
+.pointer{
+    cursor: pointer;
+}

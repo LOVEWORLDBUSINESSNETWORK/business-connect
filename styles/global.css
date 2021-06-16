@@ -130,10 +130,10 @@ html,body{
 .list li a{
     text-decoration: none;
     color: #999;
-    margin-left: 30px;   
 }
 .my-footer p{
     color: #999;
+    text-align: justify;
 }
 .my-footer{
     margin-top: 50px;
@@ -183,6 +183,26 @@ html,body{
     }
     .banner{
         height: auto;
+    }
+    /* .sm-footer ul{
+        width: 300px !important;
+        background-color: blue;
+    } */
+    .my-footer{
+        height: 780px;
+        margin: 0;
+        
+    }
+    /* .my-footer p{
+        /* display: none; */
+    /* }  */
+    .foot-1{
+        padding: 0;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .copyright{
+        font-size: smaller;
     }
 }
 .bg-grey{

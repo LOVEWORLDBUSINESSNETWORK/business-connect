@@ -31,7 +31,7 @@ const Nav = ()=>{
             </span>
             <div className="d-none d-md-block">
                 <i className="fa fa-coffee"></i>
-              <input type="text" className="form-control ml-4  p-4 search-box" placeholder="search for item" />
+              <input type="text" className="form-control ml-1  p-4 search-box" placeholder="search for item" />
             </div>
             {/* Nav links */}
             <div
@@ -66,6 +66,21 @@ const Nav = ()=>{
                       Contact us
                     </a>
                   </Link>
+                </li>
+                <li className="nav-item mt-3">
+                  <Link href="#">
+                  <a>
+                    <Image
+                    src="/images/love-icon.png"
+                    height={20.75}
+                    width={25}
+                    alt="Logo"
+                  />
+                    </a>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  
                 </li>
               </ul>
             </div>

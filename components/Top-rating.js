@@ -5,7 +5,7 @@ class Rating extends Component {
   render() {
     return (
       <>
-        <div className=" mx-auto section m-5 text-center ">
+        <div className=" mx-auto section pb-3 m-5 text-center ">
             <h1>Top Rated Business</h1>
           <div className="row m-3">
             <div className="card col-md m-1 shadow text-center">

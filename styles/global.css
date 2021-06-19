@@ -73,7 +73,7 @@ html,body{
     align-items: center;
     /* text-align: center; */
 }
-.categories div:hover{
+.categories .cat-option:hover{
     background-color: #ce1212;
     color: white;
 }
@@ -118,6 +118,13 @@ html,body{
 }
 .list-card{
     background: white;
+}
+.prod-slide img{
+    /* background-color: red; */
+    border-radius: 10px;
+}
+.prod-slide::-webkit-scrollbar{
+    display: none;
 }
 
 .bgdk{

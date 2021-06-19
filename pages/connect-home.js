@@ -2,6 +2,7 @@ import Link from "next/link";
 import Rating from "../components/Top-rating";
 import Bid from "../components/Bids";
 import Banner from "../components/Bottom-banner";
+import ProductSlide from "../components/products-swipe";
 
 const { Component } = require("react");
 
@@ -13,7 +14,7 @@ class Home extends Component {
         <div className="row go mx-4 my-3">
           <div className="col-md-3 d-none d-md-block pr-0">
             <div className="container w-75 mt-4 pr-0 categories">
-              <div className="border shadow px-2 py-2 text-left mt-2 btn d-flex justify-content-between">
+              <div className="border shadow px-2 py-2 text-left mt-2 btn d-flex justify-content-between cat-option">
                 <h6 className>Film & Videos</h6>
                   <svg
                   className="my-auto"
@@ -29,7 +30,7 @@ class Home extends Component {
                     />
                   </svg>
               </div>
-              <div className="border shadow px-2 py-2 text-left mt-2 btn d-flex justify-content-between">
+              <div className="border shadow px-2 py-2 text-left mt-2 btn d-flex justify-content-between cat-option">
                 <h6>Food and Agric</h6>
                 <svg
                   className="my-auto"
@@ -45,7 +46,7 @@ class Home extends Component {
                     />
                   </svg>
               </div>
-              <div className="border shadow px-2 py-2 text-left mt-2 btn d-flex justify-content-between">
+              <div className="border shadow px-2 py-2 text-left mt-2 btn d-flex justify-content-between cat-option">
                 <h6>Fashion</h6>
                 <svg
                   className="my-auto"
@@ -61,7 +62,7 @@ class Home extends Component {
                     />
                   </svg>
               </div>
-              <div className="border shadow px-2 py-2 text-left mt-2 btn d-flex justify-content-between">
+              <div className="border shadow px-2 py-2 text-left mt-2 btn d-flex justify-content-between cat-option">
                 <h6>IT</h6>
                 <svg
                   className="my-auto"
@@ -77,7 +78,7 @@ class Home extends Component {
                     />
                   </svg>
               </div>
-              <div className="border shadow px-2 py-2 text-left mt-2 btn d-flex justify-content-between">
+              <div className="border shadow px-2 py-2 text-left mt-2 btn d-flex justify-content-between cat-option">
                 <h6>Education</h6>
                 <svg
                   className="my-auto"
@@ -93,7 +94,7 @@ class Home extends Component {
                     />
                   </svg>
               </div>
-              <div className="border shadow px-2 py-2 text-left mt-2 btn d-flex justify-content-between">
+              <div className="border shadow px-2 py-2 text-left mt-2 btn d-flex justify-content-between cat-option">
                 <h6>Travels and Tourism</h6>
                 <svg
                   className="my-auto"
@@ -160,7 +161,17 @@ class Home extends Component {
         </div>
         <div className="container mt-3">
           <h1>Fashion</h1>
-          <div></div>
+          <div>
+            <ProductSlide/>
+          </div>
+          <h1>Beauty</h1>
+          <div>
+            <ProductSlide/>
+          </div>
+          <h1>Fashion</h1>
+          <div>
+            <ProductSlide/>
+          </div>
           <Banner />
         </div>
       </div>
